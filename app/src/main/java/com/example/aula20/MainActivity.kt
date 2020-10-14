@@ -18,9 +18,10 @@ class MainActivity : AppCompatActivity() {
     fun showSnackbar(msg: String) {
         val contextView = findViewById<View>(R.id.coordinator)
 
-        Snackbar.make(contextView, msg, Snackbar.LENGTH_SHORT)
-            .setAction("Ok") {
-                //OnClick
-            }.show()
+        val snackBar = Snackbar.make(contextView, msg, Snackbar.LENGTH_LONG)
+
+        snackBar.setAction("Ok") {
+            snackBar.dismiss()
+        }.show()
     }
 }
