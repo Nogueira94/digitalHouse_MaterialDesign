@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">BugCode</string>
     <string name="txt_logar">LOGIN</string>
-    <string name="txt_cadastrar">Não tem conta? Cadastre-se</string>
+    <string name="txt_cadastrar">CADASTRAR</string>
+    <string name="txt_novo_cadastro">Não tem conta? Cadastre-se</string>
     <string name="txt_usuario">Usuário</string>
     <string name="txt_senha">Senha</string>
+    <string name="txt_email">E-Mail</string>
 </resources>
